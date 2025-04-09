@@ -6,7 +6,8 @@
 
 KeywordVisualizerApp
 
-
+````
+```
 import sys
 sys.path.append("D:\_DeepNLP\mylib\KeywordVisualizerApp\lib")
 from konlpy.tag import Okt #한국어 품사태깅 
@@ -80,5 +81,7 @@ if st.button("분석시작"):
                 print("이거 아님 ?")
 
             if fig1:
-                st.pyplot(fig1)         
+                st.pyplot(fig1)
+```
+```` 
 ![이미지](https://github.com/siwon456/Personal_project/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-04-09%20173602.png)
