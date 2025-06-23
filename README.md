@@ -78,7 +78,7 @@ if st.button("분석시작"):
             if fig:
              st.pyplot(fig)
             else:
-                print("이거 아님 ?")
+                print("오류")
 
             if fig1:
                 st.pyplot(fig1)
